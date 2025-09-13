@@ -1,7 +1,7 @@
 /* datatable */
 
 .datatable {
-    border: solid 1px grey;
+    border: solid 1px rgb(202, 182, 207);
     border-collapse: collapse;
     font-size: 16px;
 }
@@ -9,11 +9,11 @@
 .datatable thead,
 td {
     padding: 3px;
-    border: solid 1px grey;
+    border: solid 1px rgb(213, 180, 215);
 }
 
 .datatable thead {
-    background: lightgrey;
+    background: rgb(252, 234, 249);
     font-weight: bold;
 }
 

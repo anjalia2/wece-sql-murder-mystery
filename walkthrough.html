@@ -67,7 +67,7 @@
 
   gtag('config', 'G-8F4WPDMPL5');
 </script>
-    <title>The SQL Murder Mystery</title>
+    <title>The WECE SQL Murder Mystery</title>
 </head>
 
 <body>
@@ -115,7 +115,7 @@
             <div class="grid-item">
                 <img src="174092-clue-illustration.png" class="img-rounded" alt="A decorative illustration of a detective looking at an evidence board.">
                 <p>
-                    There's been a Murder in SQL City! The SQL Murder Mystery is designed to be both a self-directed lesson to learn SQL concepts and commands and a fun game for experienced SQL users to solve an intriguing crime.
+                    There's been a murder in Urbana-Champaign! The SQL Murder Mystery is designed to be both a self-directed lesson to learn SQL concepts and commands and a fun game for experienced SQL users to solve an intriguing crime.
                 </p>
 
             </div>
@@ -135,7 +135,7 @@
         <div class="grid">
             <div class="grid-item">
                 <p>
-                    A crime has taken place and the detective needs your help. The detective gave you the crime scene report, but you somehow lost it. You vaguely remember that the crime was a <strong>​murder​</strong> that occurred sometime on ​<strong>Jan.15, 2018​</strong>                    and that it took place in ​<strong>SQL City​</strong>. Start by retrieving the corresponding crime scene report from the police department’s database.
+                    A crime has taken place and the detective needs your help. The detective gave you the crime scene report, but you somehow lost it. You vaguely remember that the crime was a <strong>​murder​</strong> that occurred sometime on ​<strong>Sept.29, 2025</strong>                    and that it took place in ​<strong>Urbana-Champaign​</strong>. Start by retrieving the corresponding crime scene report from the police department’s database.
                 </p>
                 <p>
                     All the clues to this mystery are buried in a huge database, and you need to use SQL to navigate through this vast network of information. Your first step to solving the mystery is to retrieve the corresponding crime scene report from the police department’s
@@ -261,7 +261,7 @@ FROM person;"></sql-exercise>
 WHERE type = 'theft' 
 AND city = 'Chicago';" data-solution="SELECT * FROM crime_scene_report 
 WHERE type = 'murder' 
-AND city = 'SQL City';"></sql-exercise>
+AND city = 'Urbana-Champaign';"></sql-exercise>
 
                 <p>If you haven't found the right crime scene report yet, click "show solution" above, and replace the contents of the box with just the revealed command. (Leave out the initial <code>/*</code>) If you figured out the query that shows the
                     single crime scene report instead of a few for the same city and type, then congratulations and disregard the word "incorrect". You'll know if you got it!
@@ -366,15 +366,15 @@ WHERE LOWER(city) ='sql city';"></sql-exercise>
 
 
 " data-solution="SELECT * FROM person 
-WHERE address_street_name = 'Northwestern Dr' 
+WHERE address_street_name = 'White Street' 
 ORDER BY address_number DESC LIMIT 1;"></sql-exercise>
 
                 <sql-exercise data-question="Write a query that identifies the second witness." data-comment="There's more than one way to do it, so you may learn the answer even if the results say 'Incorrect'" data-default-text="
 
 
 " data-solution="SELECT * FROM person 
-WHERE name like '%Annabel%'
-AND address_street_name = 'Franklin Ave';"></sql-exercise>
+WHERE name like '%Zoe%'
+AND address_street_name = 'Green Street';"></sql-exercise>
 
             </div>
         </div>
@@ -424,7 +424,7 @@ WHERE annual_income > 450000"></sql-exercise>
 " data-solution="SELECT person.name, interview.transcript
 FROM person JOIN interview
 ON person.id = interview.person_id
-WHERE person.id = 14887 OR person.id = 16371;"></sql-exercise>
+WHERE person.id = 19457 OR person.id = 19456;"></sql-exercise>
             </div>
         </div>
 
